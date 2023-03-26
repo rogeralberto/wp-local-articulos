@@ -1,0 +1,26 @@
+.wp-menu {
+    border-bottom: 1px solid;
+    margin-bottom: $spaces-large;
+    border-bottom-color: $text-light-gray;
+    &__content{
+        display: flex;
+        justify-content: center;
+        margin-bottom: $spaces-small;
+    }
+}
+
+.menu {
+    display: flex;
+    a {
+        text-decoration: none;
+        color: $footer-gray;
+        padding: 10px;
+    }
+}
+
+.current-menu-item {
+    border-bottom: 5px solid $text-color-orange;
+}
+.main-navigation {
+    background-color: #012e43;
+}

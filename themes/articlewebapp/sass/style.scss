@@ -1,0 +1,15 @@
+@import "compass";
+@import "compass/reset";
+ 
+// Here we import our partials
+@import "_partials/mixins";
+@import "_partials/variables";
+@import "_partials/typography";
+@import "_partials/articulos";
+@import "_partials/header";
+@import "_partials/page";
+@import "_partials/footer";
+@import "_partials/menu";
+@import "_partials/pagination";
+@import "_partials/backbutton";
+@import "_partials/search";

@@ -1,0 +1,14 @@
+.button {
+    &__back {
+        background-color: $text-color-orange;
+        padding: 10px;
+        position: relative;
+        right: 55px;
+        top: 25px;
+        text-decoration: none;
+        a {
+            color: $text-color-white;
+            text-decoration: none;
+        }
+    }
+}

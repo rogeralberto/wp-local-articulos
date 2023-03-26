@@ -1,0 +1,22 @@
+.site-footer {
+    background-color: $footer-gray;
+    height: $footer-height;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    margin-top: $spaces-large;
+    color: $footer-text-color;
+    &__copyright {
+        max-width: 300px;
+    }
+    &__items-left {
+        width: 50%;
+        display: flex;
+        justify-content: left;
+    }
+    &__items-right {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+}

@@ -1,0 +1,22 @@
+.pagination{
+    &__articulos{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.custom-pagination {
+    font-size: .8rem;
+    a {
+        text-decoration: none;
+    }
+    .current {
+        background-color: $footer-gray;
+        color: $text-color-white;
+        border-radius: 20px;
+        display: inline-block;
+        width: 24px;
+        text-align: center;
+    }
+}

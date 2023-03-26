@@ -1,0 +1,334 @@
+/* line 5, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* mixins.scss */
+/*_variables.scss */
+/* Body Text Styles */
+/*Fonts*/
+/*Sizes*/
+/*Page Spaces*/
+/*_typography.scss*/
+/* line 2, ../sass/_partials/_typography.scss */
+body {
+  color: black;
+  font-size: 16px;
+  font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* line 1, ../sass/_partials/_articulos.scss */
+.articulo-img {
+  width: 270px;
+  height: 300px;
+}
+
+/* line 5, ../sass/_partials/_articulos.scss */
+.articulo-img-single {
+  width: 800px;
+  height: 400px;
+}
+
+/* line 11, ../sass/_partials/_articulos.scss */
+.articulos__container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 269px;
+  padding-right: 269px;
+  align-items: center;
+}
+/* line 18, ../sass/_partials/_articulos.scss */
+.articulos__comments {
+  display: flex;
+  flex-direction: column;
+  padding-left: 269px;
+  padding-right: 269px;
+}
+/* line 24, ../sass/_partials/_articulos.scss */
+.articulos__items {
+  max-width: 1300px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 60px;
+  border-right: 1px solid #efefef;
+  border-bottom: 3px solid #efefef;
+}
+/* line 32, ../sass/_partials/_articulos.scss */
+.articulos__items-single {
+  max-width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 40, ../sass/_partials/_articulos.scss */
+.articulos__title {
+  font-weight: 600;
+}
+/* line 43, ../sass/_partials/_articulos.scss */
+.articulos__text-info {
+  color: #7EC8E3;
+}
+/* line 46, ../sass/_partials/_articulos.scss */
+.articulos__detallado {
+  border: 1px solid;
+  background-color: orangered;
+  color: #FFF;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+/* line 55, ../sass/_partials/_articulos.scss */
+.articulos__img {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+/* line 60, ../sass/_partials/_articulos.scss */
+.articulos__description {
+  margin-bottom: 15px;
+}
+/* line 63, ../sass/_partials/_articulos.scss */
+.articulos__info-single {
+  margin-bottom: 15px;
+}
+/* line 66, ../sass/_partials/_articulos.scss */
+.articulos__content {
+  max-height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-right: 15px;
+}
+
+/* line 1, ../sass/_partials/_header.scss */
+.site-header {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: space-around;
+}
+/* line 5, ../sass/_partials/_header.scss */
+.site-header__items-left {
+  width: 20%;
+  display: flex;
+  justify-content: left;
+}
+/* line 10, ../sass/_partials/_header.scss */
+.site-header__items-right {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 16, ../sass/_partials/_header.scss */
+.site-header__profile {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 20%;
+}
+/* line 22, ../sass/_partials/_header.scss */
+.site-header__search {
+  width: 500px;
+  border-radius: 30px;
+  background: #efefef;
+  border: 0px;
+  padding: 5px;
+}
+/* line 29, ../sass/_partials/_header.scss */
+.site-header__search-button {
+  background: orangered;
+  border: 0px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+}
+
+/* line 38, ../sass/_partials/_header.scss */
+.custom-logo {
+  width: 300px;
+  height: 110px;
+}
+
+/* line 1, ../sass/_partials/_page.scss */
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* line 6, ../sass/_partials/_page.scss */
+.gray-text {
+  color: #646464;
+}
+
+/* line 1, ../sass/_partials/_footer.scss */
+.site-footer {
+  background-color: #646464;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  margin-top: 60px;
+  color: white;
+}
+/* line 9, ../sass/_partials/_footer.scss */
+.site-footer__copyright {
+  max-width: 300px;
+}
+/* line 12, ../sass/_partials/_footer.scss */
+.site-footer__items-left {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+}
+/* line 17, ../sass/_partials/_footer.scss */
+.site-footer__items-right {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+
+/* line 1, ../sass/_partials/_menu.scss */
+.wp-menu {
+  border-bottom: 1px solid;
+  margin-bottom: 60px;
+  border-bottom-color: #efefef;
+}
+/* line 5, ../sass/_partials/_menu.scss */
+.wp-menu__content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* line 12, ../sass/_partials/_menu.scss */
+.menu {
+  display: flex;
+}
+/* line 14, ../sass/_partials/_menu.scss */
+.menu a {
+  text-decoration: none;
+  color: #646464;
+  padding: 10px;
+}
+
+/* line 21, ../sass/_partials/_menu.scss */
+.current-menu-item {
+  border-bottom: 5px solid orangered;
+}
+
+/* line 24, ../sass/_partials/_menu.scss */
+.main-navigation {
+  background-color: #012e43;
+}
+
+/* line 2, ../sass/_partials/_pagination.scss */
+.pagination__articulos {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 9, ../sass/_partials/_pagination.scss */
+.custom-pagination {
+  font-size: .8rem;
+}
+/* line 11, ../sass/_partials/_pagination.scss */
+.custom-pagination a {
+  text-decoration: none;
+}
+/* line 14, ../sass/_partials/_pagination.scss */
+.custom-pagination .current {
+  background-color: #646464;
+  color: #FFF;
+  border-radius: 20px;
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+}
+
+/* line 2, ../sass/_partials/_backbutton.scss */
+.button__back {
+  background-color: orangered;
+  padding: 10px;
+  position: relative;
+  right: 55px;
+  top: 25px;
+  text-decoration: none;
+}
+/* line 9, ../sass/_partials/_backbutton.scss */
+.button__back a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* line 2, ../sass/_partials/_search.scss */
+.search__input-search input {
+  width: 500px;
+}

@@ -1,0 +1,41 @@
+.site-header {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
+    &__items-left {
+        width: 20%;
+        display: flex;
+        justify-content: left;
+    }
+    &__items-right {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__profile {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 20%;
+    }
+    &__search {
+        width: 500px;
+        border-radius: 30px;
+        background: $text-light-gray;
+        border: 0px;
+        padding: 5px;
+    }
+    &__search-button {
+        background: $text-color-orange;
+        border: 0px;
+        border-radius: 20px;
+        width: 30px;
+        height: 30px;
+        color: $text-color-white;
+    }
+}
+.custom-logo {
+    width: 300px;
+    height: 110px;
+}
