@@ -5,3 +5,4 @@ Technical Test
 2. Sugiero tener instalado Local WP (https://localwp.com/)
 3. Instalar el plugin ACF (Advanced Custom Fields)
 4. Importar el archivo `acf-export-2023-03-26.json` con la configuracion
+5. Importar el archivo `acf-export-2023-03-26.json` en la configuracion del plugin ACF.
