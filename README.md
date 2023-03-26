@@ -6,3 +6,5 @@ Technical Test
 3. Instalar el plugin ACF (Advanced Custom Fields)
 4. Importar el archivo `acf-export-2023-03-26.json` con la configuracion
 5. Importar el archivo `acf-export-2023-03-26.json` en la configuracion del plugin ACF.
+6. Clonar este repositorio.
+7. Copiar la carpeta `articlewebapp` dentro de themes en Wordpress.
