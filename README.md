@@ -1,6 +1,9 @@
 # wp-local-articulos
 Technical Test
 
+![image](https://user-images.githubusercontent.com/7242493/227807707-afebe294-7764-4d6a-93a6-a9d23d057c0a.png)
+
+
 1. Se necesita la gema de Ruby on Rails para Sass y Sass compass (Esto para poder compilar css)
 2. Sugiero tener instalado Local WP (https://localwp.com/)
 3. Instalar el plugin ACF (Advanced Custom Fields)
