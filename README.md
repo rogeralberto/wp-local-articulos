@@ -8,3 +8,4 @@ Technical Test
 5. Importar el archivo `acf-export-2023-03-26.json` en la configuracion del plugin ACF.
 6. Clonar este repositorio.
 7. Copiar la carpeta `articlewebapp` dentro de themes en Wordpress.
+8. Activar el tema `articlewebapp`
